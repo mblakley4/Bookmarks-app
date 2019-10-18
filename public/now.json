@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "name": "bookmarks-app",
+  "alias": "mblakley4-bookmarks-app",
+  "routes": [
+      {
+        "src": "^/static/(.*)",
+        "dest": "/static/$1"
+      },
+      {
+        "src": ".*",
+        "dest": "/index.html"
+      }
+  ]
+}
